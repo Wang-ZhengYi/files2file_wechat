@@ -8,5 +8,8 @@
 
 **aip**(pip install baidu-aip)  
 
-**ffmpeg**(pip install ffmpeg) [Windows or MacOS usrs plz click here](https://ffmpeg.zeranoe.com/builds/)
+**ffmpeg**[insallhere](ffmpeg_install.sh)
+Windows or MacOS usrs plz[click here](https://ffmpeg.zeranoe.com/builds/)
+
+**ffmpy**(pip install ffmpy)
 
