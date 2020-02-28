@@ -6,5 +6,7 @@
 
 **pydub**(pip intstall pydub)  
 
-**aip**(pip install baidu-aip)
+**aip**(pip install baidu-aip)  
+
+**ffmpeg**(pip install ffmpeg)or[click here](https://ffmpeg.zeranoe.com/builds/)
 
