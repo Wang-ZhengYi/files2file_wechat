@@ -3,17 +3,30 @@
 ### you need to install the following **additional** packages(or plug-ins)  
 
 **itchat:**
-```
+
+```shell
 pip install itchat
 ```
 
-**pydub**(pip intstall pydub)  
+**pydub:**  
 
-**aip**(pip install baidu-aip)  
+```shell
+pip intstall pydub  
+```
+
+**aip:**  
+
+```shell
+pip install baidu-aip
+```
 
 **ffmpeg**[insallhere](ffmpeg_install.sh)  
 
 Windows or MacOS usrs plz [click here](https://ffmpeg.zeranoe.com/builds/)
 
-**ffmpy**(pip install ffmpy)
+**ffmpy**
+
+```shell
+pip install ffmpy
+```
 
