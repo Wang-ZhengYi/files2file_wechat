@@ -1,4 +1,4 @@
-# files2file_wechat
+# wechat cousres
 <table><tr><td bgcolor=orange>***We are always bothered by the voice teaching of wechat group, so I plan to develop a program to automatically download voice and pictures, integrate voice into a file, and provide voice recognition***</td></tr></table> 
 
 ## This program will downloading and concating audio files from wechat groups automaticlly !
