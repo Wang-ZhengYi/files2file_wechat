@@ -14,7 +14,7 @@ run [ImageMagick.sh](ImageMagick.sh) to install ImageMagick,[click here](https:/
 ## Codes Instructions
 1. run [Dload.py](Dload.py) to enter the interactive interface to input some information about the wechat coures such as self name,group name,etc., after that is downloading and concating audio files automaticlly.  
 
-2. run [Dload.py](Dload_Lite.py) to download and concat audio files automaticlly in using the previously information.  
+2. run [Dload_Lite](Dload_Lite.py) to download and concat audio files automaticlly in using the previously information.  
 
 3. run [pkge_install.sh](pkge_install.sh) to install the packages you might need.
 
