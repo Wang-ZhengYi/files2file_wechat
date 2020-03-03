@@ -1,4 +1,4 @@
-# wechat cousres
+# wechat courses
 
 <table><tr><td bgcolor=orange>***We are always bothered by the voice teaching of wechat group, so I plan to develop a program to automatically download voice and pictures, integrate voice into a file, and provide voice recognition***</td></tr></table> 
 
