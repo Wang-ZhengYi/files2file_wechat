@@ -23,7 +23,6 @@ def download(msg):
     if msg['FromUserName'] == GID and msg['ActualUserName'] in UID and msg['Type']=='Picture':
         print("下载图片:#{} 来自 {}".format(count, msg['ActualNickName']))
         msg['Text']('{}/Picture/{}.png'.format(FolderName,count))
-        count += 1
     if  msg['FromUserName'] == SelfID and msg['ToUserName'] in GID and msg['Type']=='Text' and msg['Text'].startswith('老师，您辛苦了！'):
         # print("合并音频中.....")
         # AudioConcat(count, FolderName)
