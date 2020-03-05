@@ -46,16 +46,16 @@ def vframe():
 	audio_t[0]=int(len(AudioSegment.from_mp3('./{}/audio/{}.mp3'.format(FolderName,0)))/1000)
 	for i in range(1,numA):
 		audio_t[i] = audio_t[i-1] + int(len(AudioSegment.from_mp3('./{}/audio/{}.mp3'.format(FolderName,i)))/1000)
-
+	for m in range(int(audio_t[0]])):
+		img_name = '.{}/picture/'.format(FolderName)+img_list[0]
+		frame = cv2.imread(img_name)
+		videoWriter.write(frame)
 	for i in range(numP):
-		for k in range(int(audio_t[int(img_list[i][0:-4])]-(i!=0)*audio_t[int(img_list[int((i-1)*(i!=0))][0:-4])])):
+		for k in range(int(audio_t[int(img_list[i+1][0:-4])]*(i<numP-1)+audio_t[int(img_list[-1][0:-4])]*(i=numP-1) +-audio_t[int(img_list[i][0:-4])])):
 			img_name = '.{}/picture/'.format(FolderName)+img_list[i]
 			frame = cv2.imread(img_name)
 			videoWriter.write(frame)
-	for m in range(int(audio_t[-1]-audio_t[int(img_list[-1][0:-4])])):
-		img_name = '.{}/picture/'.format(FolderName)+img_list[-1]
-		frame = cv2.imread(img_name)
-		videoWriter.write(frame)
+
 	videoWriter.release()
 	audio_clip = AudioFileClip('.{}/video/{}.mp3'.format(FolderName,'result'))
 	text_clip0 = TextClip('', fontsize = 13, color = 'black')
